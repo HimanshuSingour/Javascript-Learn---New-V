@@ -1,5 +1,7 @@
 "use strict" // treat all JS Code as newer version
 
+// Spacing User Case
+
 // alert("Hellow") // we are using nodeJs not Browser
 
 // console.log("Himamshu"); console.log("Singour") 
@@ -14,8 +16,8 @@
 // String => ""
 // boolean => true
 // null -> standalone value
-// undefined -> value not assigned to the variable
 // symbole => unique
+
 
 // Object
 
