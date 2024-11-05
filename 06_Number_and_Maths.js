@@ -28,7 +28,7 @@ console.log(Number.parseFloat(scoreObject));  // 345.23 - Parses the number and 
 console.log("------ Maths -----");
 
 
-const mathsPlay = new Number(345.23);
+const mathsPlay = new Number(345.55);
 
 console.log(Math.round(mathsPlay));         // 345 - Rounds the number to the nearest integer
 console.log(Math.ceil(mathsPlay));          // 346 - Rounds the number up to the next integer
