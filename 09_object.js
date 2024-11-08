@@ -9,7 +9,6 @@ let myObj = {
      roll: 12,
      [mySymp]: "MyKey",
      "fullName": "Himanshu Singour"
-
 }
 
 console.log(myObj.name); // name: "Himnashu",
@@ -78,8 +77,6 @@ console.log(Object.is(+0, -0)); // false
 
 
 // Destrucuring
-
-
 let courseDetails = {
 
     coursName: "Java Spring Boot",

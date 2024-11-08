@@ -32,6 +32,7 @@
 // console.log("This is an Arrow Function");
 // }
 
+
 // arrowFunction()
 
 // implecitly return - no need to write the return keyword
@@ -62,6 +63,7 @@
 
 // end of the conext batana
 
+// Name IIFE
 (function himm(){
     console.log("DB CONNECTED");
     
@@ -70,4 +72,12 @@
 (() => {
     console.log("DB CONNECTED 2");
     
-})()
+})();
+
+// variable pass
+
+((name) => {
+    console.log(`${name}`);
+    
+})("Himanshu");
+
