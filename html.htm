@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Background Page with Multiple Headings</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #FFD700; /* Golden color for headings */
+        }
+        .content {
+            text-align: center;
+        }
+        p {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body class="parent">
+      
+    <h1 class="pH">Heading 1: Himanshu</h1>
+    <h1 class="pH">Heading 2: Singour</h1>
+
+    <div class="child">
+        <h1 class="cd">Heading 1: Welcome to My Page</h1>
+        <h1 class="cd">Heading 2: Here’s Some Content</h1>
+        <h1 class="cd">Heading 3: More Information Below</h1>
+        <h1 class="cd">Heading 4: Enjoy the Experience!</h1>
+        <h1 class="cd">Heading 5: Let’s Learn Together</h1>
+    </div>
+  
+    <div class="content">
+        <p>This page has 5 different headings and a black background to create a sleek design.</p>
+        <p>You can add more content here to make it more interesting and informative.</p>
+    </div>
+</body>
+<script>
+
+// PLAY WITH ELEMENTS
+
+// const parent = document.querySelector('.parent')
+
+// console.log(parent);
+// console.log(parent.children);
+// console.log(parent.children[0]);
+// console.log(parent.children[0].innerHTML);
+
+// console.log(parent.firstElementChild);
+// console.log(parent.lastElementChild);
+
+// const childs = document.querySelector('.child')
+
+// console.log(childs); // child
+// console.log(childs.nextElementSibling); // child sibling
+// console.log(childs.parentElement); // child Parent
+
+// const parent = document.querySelector('.parent')
+
+// console.log(parent); 
+// console.log(parent.childNodes); 
+
+
+// CREATE ELEMENTS
+
+const div = document.createElement('div');
+console.log(div);
+
+div.className = "main"
+div.id = "1"
+div.setAttribute("title" , "generated title")
+div.style.padding = "12px"
+div.innerHTML = "Himanshu Singour Yes..."
+
+document.body.appendChild(div)
+
+
+
+
+</script>
+</html>
